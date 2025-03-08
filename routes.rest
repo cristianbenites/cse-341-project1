@@ -1,0 +1,19 @@
+// LOCALHOST
+###
+GET http://localhost:3000/contacts
+###
+GET http://localhost:3000/contacts/67ca681e3bafb096b74e250e
+###
+GET http://localhost:3000/contacts/67ca68703bafb096b74e2510
+###
+GET http://localhost:3000/contacts/67ca68703bafb096b74e2511
+
+// PRODUCTION Deploy
+###
+GET https://cse-341-project1-uofe.onrender.com/contacts
+###
+GET https://cse-341-project1-uofe.onrender.com/contacts/67ca681e3bafb096b74e250e
+###
+GET https://cse-341-project1-uofe.onrender.com/contacts/67ca68703bafb096b74e2510
+###
+GET https://cse-341-project1-uofe.onrender.com/contacts/67ca68703bafb096b74e2511
